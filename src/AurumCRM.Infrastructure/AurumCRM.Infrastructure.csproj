@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\AurumCRM.Domain\AurumCRM.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

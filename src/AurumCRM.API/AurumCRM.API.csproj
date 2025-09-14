@@ -7,7 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2"/>
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AurumCRM.Application\AurumCRM.Application.csproj" />
+      <ProjectReference Include="..\AurumCRM.Communication\AurumCRM.Communication.csproj" />
+      <ProjectReference Include="..\AurumCRM.Exception\AurumCRM.Exception.csproj" />
+      <ProjectReference Include="..\AurumCRM.Infrastructure\AurumCRM.Infrastructure.csproj" />
     </ItemGroup>
 
 </Project>
