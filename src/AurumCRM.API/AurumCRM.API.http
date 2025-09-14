@@ -1,0 +1,6 @@
+@AurumCRM.API_HostAddress = http://localhost:5143
+
+GET {{AurumCRM.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
