@@ -21,7 +21,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Services\AutoMapper\" />
       <Folder Include="UseCases\" />
     </ItemGroup>
 
